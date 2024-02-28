@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+:root {
+  --color-primario: #f9a328;
+  --color-secundario: #2b3035;
+  --color-tercer: #ffffff;
+}
+.navbar {
+  color: white;
+  height: 80px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.7rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--color-primario);
+  transition: color 0.3s ease-in-out;
+}
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item .nav-link {
+  font-family: "Open Sans", sans-serif !important;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+.navbar-collapse {
+  margin-right: 30px;
+}
+
+.navbar-toggler {
+  font-size: 20px;
+}
+@media (max-width: 992px) {
+  .navbar {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex: inherit;
+  }
+}
+
+.container-fluid-header {
+  height: 100vh;
+  width: 100%;
+}
+
+.font-home {
+  font-weight: 700;
+  color: var(--color-primario);
+}
+
+.img-home-ipakket {
+  background-image: url(../assets/imgs/img-home-ipakket.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.home-page {
+  max-width: 500px;
+}
+
+.home-page .font-ipakket {
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.contain-cat {
+  display: flex;
+  padding: 10px;
+  width: 60px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.contain-cat img i {
+  height: 40px;
+}
+.contain-cat span {
+  position: absolute;
+  bottom: 3px;
+}
+.contain-cat span {
+  position: absolute;
+  bottom: 3px;
+  font-weight: 600;
+}
+.img-cat {
+  position: absolute;
+  top: 10px;
+}
+.otro-mueble {
+  position: absolute;
+  top: 2px;
+}
+.bi-truck {
+  position: absolute;
+  top: 5px;
+}
+.img-comida {
+  width: 40px;
+  height: 35px;
+  background-image: url(../assets/imgs/comidav2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container-cat > div:nth-child(1) {
+  background-color: #f9a328;
+}
+.container-cat > div:nth-child(2) {
+  color: #ffffff;
+  background-color: #212121;
+}
+.container-cat > div:nth-child(3) {
+  background-color: #00928f;
+}
+.container-cat > div:nth-child(4) {
+  background-color: #293241;
+}
+
+.img-bac {
+  z-index: -2;
+}
+.home-fondos {
+  width: 300px;
+  height: 300px;
+  background-color: #f9a328;
+  position: absolute;
+}
+.home-fondos-v1 {
+  transform: rotate(90deg);
+  top: 30px;
+  right: 0px;
+  background: url(../assets/imgs/fondo-home.svg) no-repeat center;
+  background-size: contain;
+}
+.home-fondos-v2 {
+  transform: rotate(180deg);
+  bottom: -25px;
+  right: 0px;
+  background: url(../assets/imgs/fondo-home.svg) no-repeat center;
+  background-size: contain;
+}
+
+.section-about {
+  background: url(../assets/imgs/fondo-acercade.svg) no-repeat center;
+  background-size: cover;
+}
+
+.img-section-about {
+  width: 450px;
+  height: 450px;
+  background: url(../assets/imgs/bandera-ipakket.png) no-repeat center;
+  background-size: contain;
+}
+
+.text-about-contain {
+  max-width: 550px;
+
+}
+.text-about-ipakket,
+.text-about-pacifi {
+  color: #f4f4f7;
+  font-size: 1.4rem;
+}
+
+
+.list-benefics{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#video-container iframe {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+
+
+.img-section-download {
+  width: 450px;
+  background: url(../assets/imgs/ipakket-app.svg) no-repeat center;
+  background-size: contain;
+}
+
+/* 
+.section-download{
+  background: url(../assets/imgs/fondo-dowloads.svg) no-repeat center;
+  background-size: contain;
+} */
+.text-about-download{
+  max-width: 500px;
+}
+
+
+.playstore-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  background-color: var(--color-secundario);
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  outline: 0;
+  transition: all  .2s ease;
+  text-decoration: none;
+}
+
+.playstore-button:hover {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 1);
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.texts {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.text-1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+.text-2 {
+  font-weight: 600;
+}
