@@ -18,6 +18,15 @@ body {
   --color-secundario: #2b3035;
   --color-tercer: #ffffff;
 }
+
+.nav-link-color {
+  color: white !important; /* Color deseado */
+}
+
+/* Estilo para el enlace activo */
+.nav-link.active {
+  color: #f7a41d !important; 
+}
 .navbar {
   color: white;
   height: 80px;
@@ -81,6 +90,7 @@ body {
 }
 
 .home-page {
+  min-width: 286px;
   max-width: 500px;
 }
 
@@ -121,9 +131,14 @@ body {
   position: absolute;
   top: 2px;
 }
+
 .bi-truck {
   position: absolute;
-  top: 5px;
+  top: 5px ;
+}
+.img-salud {
+  top: 10px !important;
+
 }
 .img-comida {
   width: 40px;
@@ -132,6 +147,7 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  top: 10px !important;
 }
 .container-cat > div:nth-child(1) {
   background-color: #f9a328;
@@ -184,8 +200,8 @@ body {
 }
 
 .text-about-contain {
-  max-width: 550px;
-
+  min-width: 300px;
+  max-width: 450px;
 }
 .text-about-ipakket,
 .text-about-pacifi {
@@ -193,13 +209,11 @@ body {
   font-size: 1.4rem;
 }
 
-
-.list-benefics{
+.list-benefics {
   gap: 10px;
   display: flex;
   flex-direction: column;
 }
-
 
 #video-container iframe {
   position: fixed;
@@ -208,22 +222,29 @@ body {
   height: 100%;
 }
 
-
 .img-section-download {
   width: 450px;
-  background: url(../assets/imgs/ipakket-app.svg) no-repeat center;
+  height: 450px;
+  background: url(../assets/imgs/ipakket-app.png) no-repeat center;
   background-size: contain;
 }
 
-/* 
-.section-download{
-  background: url(../assets/imgs/fondo-dowloads.svg) no-repeat center;
-  background-size: contain;
-} */
-.text-about-download{
-  max-width: 500px;
+.section-download {
+  background: url(../assets/imgs/telefono.png) no-repeat center;
+  background-size: cover; 
+  /* Añadir propiedades de parallax */
+  background-attachment: fixed;
+  background-position: center;
 }
-
+.text-about-download {
+  max-width: 500px; 
+}
+ 
+.container-download {
+  align-items: center;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.86); 
+}
 
 .playstore-button {
   display: inline-flex;
@@ -236,7 +257,7 @@ body {
   text-align: center;
   color: rgba(255, 255, 255, 1);
   outline: 0;
-  transition: all  .2s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
 }
 
@@ -266,4 +287,113 @@ body {
 
 .text-2 {
   font-weight: 600;
+}
+
+.section-carrier {
+  background-color: #ffffff;
+}
+
+.img-section-carrier{
+  width: 450px;
+  height: 450px;
+  background: url(../assets/imgs/carrier-ipakket.svg) no-repeat center;
+  background-size: contain;
+}
+
+.text-about-carrier{ 
+  max-width: 500px;
+}
+
+.btn-carrier{
+  padding: 10px 25px 10px 25px;
+  border: var(--color-secundario) solid 1px !important;
+  
+}
+.container-carrier-botton{
+ margin-bottom: 5px;
+}
+
+
+
+.contain-requirements {
+  display: flex;
+  padding: 10px;
+  width: 60px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.contain-requirements img i {
+  height: 40px;
+}
+.contain-requirements span {
+  position: absolute;
+  bottom: 3px;
+}
+.contain-requirements span {
+  position: absolute;
+  bottom: 3px;
+  font-weight: 600;
+}
+.img-cat {
+  position: absolute;
+  top: 3px;
+}
+.bi-truck {
+  position: absolute;
+  top: 5px;
+}
+
+.container-requirements > div:nth-child(1) {
+  background-color: #f9a328;
+}
+.container-requirements > div:nth-child(2) {
+  color: #ffffff;
+  background-color: #212121;
+}
+.container-requirements > div:nth-child(3) {
+  background-color: #00928f;
+}
+.container-requirements > div:nth-child(4) {
+  background-color: #ff0040;
+}
+
+
+.text-about-shops {
+  max-width: 500px;
+}
+
+.img-section-shops{
+  width: 450px;
+  height: 450px;
+  background: url(../assets/imgs/comercios-ipakket.png) no-repeat center;
+  background-size: contain;
+}
+
+
+@media (max-width: 1000px) {
+  .img-section-download {
+    width: 300px;
+    height: 300px;
+  }
+  .img-section-carrier{
+    width: 300px;
+    height: 300px;
+  }
+  .img-section-shops{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 00px) {
+  .container-fluid-header-sp{
+    height: 116vh;
+    width: 100%;
+}
 }
