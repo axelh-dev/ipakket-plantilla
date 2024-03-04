@@ -25,7 +25,7 @@ body {
 
 /* Estilo para el enlace activo */
 .nav-link.active {
-  color: #f7a41d !important; 
+  color: #f7a41d !important;
 }
 .navbar {
   color: white;
@@ -134,11 +134,10 @@ body {
 
 .bi-truck {
   position: absolute;
-  top: 5px ;
+  top: 5px;
 }
 .img-salud {
   top: 10px !important;
-
 }
 .img-comida {
   width: 40px;
@@ -195,7 +194,7 @@ body {
 .img-section-about {
   width: 450px;
   height: 450px;
-  background: url(../assets/imgs/bandera-ipakket.png) no-repeat center;
+  background: url(../assets/imgs/ipakket-bandera.png) no-repeat center;
   background-size: contain;
 }
 
@@ -231,19 +230,19 @@ body {
 
 .section-download {
   background: url(../assets/imgs/telefono.png) no-repeat center;
-  background-size: cover; 
+  background-size: cover;
   /* Añadir propiedades de parallax */
   background-attachment: fixed;
   background-position: center;
 }
 .text-about-download {
-  max-width: 500px; 
+  max-width: 500px;
 }
- 
+
 .container-download {
   align-items: center;
   border-radius: 10px;
-  background-color:rgba(255, 255, 255, 0.86); 
+  background-color: rgba(255, 255, 255, 0.86);
 }
 
 .playstore-button {
@@ -293,27 +292,24 @@ body {
   background-color: #ffffff;
 }
 
-.img-section-carrier{
+.img-section-carrier {
   width: 450px;
   height: 450px;
   background: url(../assets/imgs/carrier-ipakket.svg) no-repeat center;
   background-size: contain;
 }
 
-.text-about-carrier{ 
+.text-about-carrier {
   max-width: 500px;
 }
 
-.btn-carrier{
+.btn-carrier {
   padding: 10px 25px 10px 25px;
   border: var(--color-secundario) solid 1px !important;
-  
 }
-.container-carrier-botton{
- margin-bottom: 5px;
+.container-carrier-botton {
+  margin-bottom: 5px;
 }
-
-
 
 .contain-requirements {
   display: flex;
@@ -362,16 +358,19 @@ body {
   background-color: #ff0040;
 }
 
-
 .text-about-shops {
   max-width: 500px;
 }
 
-.img-section-shops{
+.img-section-shops {
   width: 450px;
   height: 450px;
   background: url(../assets/imgs/comercios-ipakket.png) no-repeat center;
   background-size: contain;
+}
+.container-fluid-header-sp {
+  height: 100vh;
+  width: 100%;
 }
 
 
@@ -380,20 +379,20 @@ body {
     width: 300px;
     height: 300px;
   }
-  .img-section-carrier{
+  .img-section-carrier {
     width: 300px;
     height: 300px;
   }
-  .img-section-shops{
+  .img-section-shops {
     width: 300px;
     height: 300px;
   }
 }
 
 
-@media (max-width: 00px) {
-  .container-fluid-header-sp{
+@media (max-width: 771px) {
+  .container-fluid-header-sp {
     height: 116vh;
     width: 100%;
-}
+  }
 }
