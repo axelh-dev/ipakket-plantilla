@@ -77,6 +77,11 @@ body {
   width: 100%;
 }
 
+.container-fluid-header-home{
+  background: url(../assets/imgs/fondo--home.png) no-repeat center;
+  background-size: cover;
+}
+
 .font-home {
   font-weight: 700;
   color: var(--color-primario);
@@ -89,9 +94,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.home-page-container{
+  background-color: rgba(255, 255, 255, 0.86);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .home-page {
-  min-width: 286px;
-  max-width: 500px;
 }
 
 .home-page .font-ipakket {
@@ -186,32 +195,31 @@ body {
   background-size: contain;
 }
 
-.section-about {
-  background: url(../assets/imgs/fondo-acercade.svg) no-repeat center;
+/* .section-about {
+  
+ --background: url(../assets/imgs/fondo-acercade.svg) no-repeat center;
   background-size: cover;
-}
+} */
 
-.img-section-about {
+/* .img-section-about {
   width: 450px;
   height: 450px;
   background: url(../assets/imgs/ipakket-bandera.png) no-repeat center;
   background-size: contain;
-}
+} */
 
-.text-about-contain {
-  min-width: 300px;
-  max-width: 450px;
-}
+/* .text-about-contain {
+  max-width: 550px; 
+}  */
+
 .text-about-ipakket,
 .text-about-pacifi {
-  color: #f4f4f7;
   font-size: 1.4rem;
 }
 
 .list-benefics {
-  gap: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #video-container iframe {
@@ -290,6 +298,11 @@ body {
 
 .section-carrier {
   background-color: #ffffff;
+}
+
+.benefics-item{
+  max-width: 250px;
+  text-align: justifylist-benefics;
 }
 
 .img-section-carrier {
@@ -373,7 +386,6 @@ body {
   width: 100%;
 }
 
-
 @media (max-width: 1000px) {
   .img-section-download {
     width: 300px;
@@ -389,10 +401,21 @@ body {
   }
 }
 
-
 @media (max-width: 771px) {
   .container-fluid-header-sp {
     height: 116vh;
     width: 100%;
   }
+}
+
+
+.item {
+  opacity: 0;
+  transform: translateY(20px); /* Desplazamiento inicial */
+  transition: opacity 1s ease, transform 0.5s ease;
+}
+
+.item.visible {
+  opacity: 1;
+  transform: translateY(0); 
 }

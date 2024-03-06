@@ -25,7 +25,7 @@
 </head>
 
 <body>
-
+    <!-- 
  <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content">
@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>  
- 
+  -->
 
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark" id="mainNav">
@@ -86,72 +86,88 @@
     </nav>
 
     <header id="top-page"
-        class="container-fluid-header d-flex p-2 flex-lg-row flex-column  flex-row m-auto position-relative justify-content-center align-items-center">
-        <div class="position-absolute img-bac top-50 end-0 translate-middle-y">
+        class="container-fluid-header container-fluid-header-home  d-flex p-2 flex-lg-row flex-column  flex-row m-auto position-relative justify-content-center align-items-center">
+        <!-- <div class="position-absolute img-bac top-50 end-0 translate-middle-y">
             <div class="home-fondos home-fondos-v1"></div>
             <div class="home-fondos home-fondos-v2"></div>
-        </div>
-        <div class="home-page col-8  " id="#top-page">
-            <h1 class="font-home mb-0">Ipakket</h1>
-            <p class="font-ipakket text-justify"> Necesitas enviar un paquete, comida, mudarte, transportar personas o
-                comprar medicamentos? Ipakket es la solución perfecta para ti. Ofrecemos una amplia gama de servicios
-                para satisfacer las necesidades de nuestros clientes, tanto personales como comerciales.</p>
-            <div class="container-cat  d-flex p-2 gap-5 align-items-center">
-                <div class="contain-cat ">
-                    <div class="img-cat img-comida">
+        </div> -->
+        <Div class="home-page-container d-flex p-5 flex-lg-row flex-column item hidden  flex-row m-auto justify-content-center align-items-center col-10">
+            <div class="home-page col-8 item hidden " id="#top-page">
+                <h1 class="font-home mb-0">Ipakket</h1>
+                <p class="font-ipakket text-justify"> Necesitas enviar un paquete, comida, mudarte, transportar personas
+                    o comprar medicamentos? Ipakket es la solución perfecta para ti. Ofrecemos una amplia gama de servicios
+                    para satisfacer las necesidades de nuestros clientes, tanto personales como comerciales.</p>
+                <div class="container-cat  d-flex p-2 gap-5 align-items-center">
+                    <div class="contain-cat ">
+                        <div class="img-cat img-comida">
+                        </div>
+                        <span>Comida</span>
                     </div>
-                    <span>Comida</span>
-                </div>
-                <div class="contain-cat ">
-                    <i class="img-cat bi bi-truck" style="font-size: 30px;"></i>
-                    <span>Envios</span>
-                </div>
-                <div class="contain-cat ">
-                    <img class="img-cat img-salud" src="./assets/imgs/salud.svg" alt="salud" style="width: 30px;">
-                    <span>Salud</span>
-                </div>
-                <div class="contain-cat ">
-                    <img class="img-cat otro-mueble" src="./assets/imgs/mudanza.png" alt="mudanza"
-                        style="height: 50px;">
-                    <span>Mudanza</span>
+                    <div class="contain-cat ">
+                        <i class="img-cat bi bi-truck" style="font-size: 30px;"></i>
+                        <span>Envios</span>
+                    </div>
+                    <div class="contain-cat ">
+                        <img class="img-cat img-salud" src="./assets/imgs/salud.svg" alt="salud" style="width: 30px;">
+                        <span>Salud</span>
+                    </div>
+                    <div class="contain-cat ">
+                        <img class="img-cat otro-mueble" src="./assets/imgs/mudanza.png" alt="mudanza"
+                            style="height: 50px;">
+                        <span>Mudanza</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="img-home-ipakket d-none d-lg-block col-4 d-flex justify-content-center align-items-center" style="height: 400px;">
-        </div>
+            <div class="img-home-ipakket d-none item hidden d-lg-block col-4 d-flex justify-content-center align-items-center"
+                style="height: 400px;">
+            </div>
+        </Div>
     </header>
 
     <section
         class="section-about container-fluid-header flex-md-row flex-column d-flex p-2 flex-row m-auto position-relative justify-content-center align-items-center"
         id="section-about">
-        <div class="img-section-about img-fluid col-4">
-        </div>
-        <div class="text-about-contain col-8">
-            <div class="text-about-ipakket">
-                <h3 class="fw-bold"> <strong>Sobre nosotros</strong></h3>
-                <p class="fs-5">Ipakket es una empresa americana con sede en [Insertar país] que ofrece una amplia gama
-                    de servicios
-                    para satisfacer las necesidades de nuestros clientes, tanto personales como comerciales.</p>
+        <!-- <div class="img-section-about item hidden img-fluid col-4">
+        </div> -->
+        <div class="text-about-contain d-flex justify-content-center item hidden row gap-2">
+            <div class="text-about-ipakket col-6">
+                <h3 class="fw-bold text-center"> <strong>Sobre nosotros</strong></h3>
+                <p class="fs-4 text-center">Ipakket es una empresa americana con sede en [Insertar país] que ofrece una
+                    amplia gama de servicios para satisfacer las necesidades de nuestros clientes, tanto personales como
+                    comerciales.</p>
             </div>
-            <div class=" text-about-pacifi">
-                <h4 class="fw-bold fs-5"><strong>En Ipakket nos preocupamos por:</strong></h4>
-                <ul class="mt-3 list-benefics fs-5">
-                    <li> <strong>Tu tiempo:</strong> Entregamos tus paquetes, comida, medicamentos y personas de forma
-                        rápida y segura.</li>
-                    <li> <strong>Tu bolsillo:</strong> Ofrecemos tarifas competitivas para que puedas acceder a nuestros
-                        servicios sin gastar de más.</li>
-                    <li> <strong>Tu tranquilidad: </strong> Te brindamos atención al cliente personalizada y tecnología
-                        de punta para que puedas rastrear tus envíos en tiempo real.</li>
-                </ul>
+            <div class=" text-about-pacifi col-10 ">
+                <h4 class="fw-bold fs-4 text-center"><strong>En Ipakket nos preocupamos por:</strong></h4>
+                <div class="mt-3 list-benefics fs-4 d-flex justify-content-center gap-5">
+                    <div class="benefics-item d-flex justify-content-center align-items-center flex-column"> Tu tiempo:
+                        Entregamos tus paquetes, comida,
+                        medicamentos y personas de forma
+                        rápida y segura.
+                        <br>
+                        <img src="./assets/imgs/time.svg" alt="" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <div class="benefics-item">Tu bolsillo: Ofrecemos tarifas competitivas para que
+                        puedas acceder a nuestros servicios sin gastar de más.
+                        <br>
+                        <img src="./assets/imgs/money.svg" alt="" class="img-fluid" style="max-width: 100px;">
+
+                    </div>
+                    <div class="benefics-item">Tu tranquilidad: Te brindamos atención al cliente
+                        personalizada y tecnología de punta para que puedas rastrear tus envíos en tiempo real.
+                        <br>
+                        <img src="./assets/imgs/tranquilidad.svg" alt="" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section
-        class="section-download container-fluid-header-sp d-flex p-2  m-auto justify-content-center align-items-centers"
+        class="section-download container-fluid-header-sp  d-flex p-2  m-auto justify-content-center align-items-centers"
         id="section-download">
-        <div class="container-download gap-2 d-flex flex-lg-row flex-column p-4 flex-row align-items-centers m-auto justify-content-center">
-            <div class=" text-about-download">
+        <div
+            class="container-download item hidden gap-2 d-flex flex-lg-row flex-column p-4 flex-row align-items-centers m-auto justify-content-center">
+            <div class=" text-about-download item hidden">
                 <div class="text download">
                     <h2 class="fw-bold fs-3"><strong>Descarga la app iPakket y disfruta de la mejor experiencia de
                             delivery de comida</strong></h2>
@@ -207,18 +223,21 @@
                 </div>
 
             </div>
-            <div class="img-section-download img-fluid col-4">
+            <div class="img-section-download  img-fluid col-4 item hidden">
             </div>
         </div>
     </section>
 
     <section
-        class="section-carrier container-fluid-header d-flex flex-row m-auto justify-content-center align-items-centers"
+        class="section-carrier container-fluid-header position-relative d-flex flex-row m-auto justify-content-center align-items-centers border-bottom"
         id="section-carrier">
-        <div class="container-carrier gap-2 flex-md-row flex-column d-flex p-2 p-md-5 flex-row m-auto justify-content-center align-items-center">
-            <div class="img-section-carrier  img-fluid  col-4">
+
+
+        <div
+            class="container-carrier gap-2 item hidden flex-md-row flex-column d-flex p-2 p-md-5 flex-row m-auto justify-content-center align-items-center">
+            <div class="img-section-carrier item hidden img-fluid  col-4">
             </div>
-            <div class="text-about-carrier d-flex justify-content-center flex-column">
+            <div class="text-about-carrier item hidden d-flex justify-content-center flex-column">
                 <div class="text-carrier">
                     <h2 class="fw-bold fs-4"><strong>Quieres Ser Repartidor?</strong></h2>
                 </div>
@@ -262,7 +281,8 @@
     <section
         class="section-shops container-fluid-header d-flex  p-2 flex-row m-auto justify-content-center align-items-centers"
         id="section-shops">
-        <div class="container-shops gap-2 gap-md-5 d-flex flex-md-row flex-column p-2 p-md-5 flex-row m-auto justify-content-center align-items-centers">
+        <div
+            class="container-shops item hidden gap-2 gap-md-5 d-flex flex-md-row flex-column p-2 p-md-5 flex-row m-auto justify-content-center align-items-centers">
 
             <div class="text-about-shops d-flex justify-content-center flex-column">
                 <div class="text-shops">
@@ -273,16 +293,21 @@
                 <div class="steps-shops">
                     <p class="fs-5"><strong>Es muy sencillo:</strong></p>
                     <ol class="mt-2 list-shops fs-5">
-                        <li>Completa el formulario: Descarga el formulario adjunto y envíalo con toda la información requerida.</li>
-                        <li>¡Nos pondremos en contacto contigo!: Un representante de iPakket te dará seguimiento para ayudarte a iniciar tu viaje hacia el éxito.</li>
+                        <li>Completa el formulario: Descarga el formulario adjunto y envíalo con toda la información
+                            requerida.</li>
+                        <li>¡Nos pondremos en contacto contigo!: Un representante de iPakket te dará seguimiento para
+                            ayudarte a iniciar tu viaje hacia el éxito.</li>
                     </ol>
                 </div>
                 <div class="steps-shops">
                     <p class="fs-5"> <strong>Al unirte a iPakket, tu negocio tendrá:</strong></p>
                     <ol class="mt-2 list-carrier fs-5">
-                        <li>Panel administrativo: Gestiona tus pedidos, controla tu inventario y monitorea tus ventas en tiempo real.</li>
-                        <li>Eficiencia en las entregas: Optimiza tus procesos de logística y ofrece una experiencia de entrega excepcional a tus clientes.</li>
-                        <li>Rentabilidad instantánea: Aumenta tus ingresos y reduce tus costos con nuestra plataforma integral.</li>
+                        <li>Panel administrativo: Gestiona tus pedidos, controla tu inventario y monitorea tus ventas en
+                            tiempo real.</li>
+                        <li>Eficiencia en las entregas: Optimiza tus procesos de logística y ofrece una experiencia de
+                            entrega excepcional a tus clientes.</li>
+                        <li>Rentabilidad instantánea: Aumenta tus ingresos y reduce tus costos con nuestra plataforma
+                            integral.</li>
                     </ol>
                 </div>
                 <div class="container-shops-botton">
