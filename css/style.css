@@ -419,6 +419,12 @@ body {
   }
 }
 
+@media (max-width: 439px) {
+ .benefics-item{
+  text-align: center;
+ }
+}
+
 .item {
   opacity: 0;
   transform: translateY(20px); /* Desplazamiento inicial */
