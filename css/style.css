@@ -77,7 +77,7 @@ body {
   width: 100%;
 }
 
-.container-fluid-header-home{
+.container-fluid-header-home {
   background: url(../assets/imgs/fondo--home.png) no-repeat center;
   background-size: cover;
 }
@@ -94,13 +94,24 @@ body {
   background-repeat: no-repeat;
 }
 
-.home-page-container{
+.home-page-container {
   background-color: rgba(255, 255, 255, 0.86);
   padding: 20px;
   border-radius: 10px;
 }
-
 .home-page {
+  min-width: 300px;
+}
+
+@media (max-width: 771px) {
+  .home-page,.home-page-container  {
+    min-width: 300px;
+    padding: 10px !important;
+    }
+    .contain-cat{
+      font-size: .7rem;
+      min-width: 40px;
+  }
 }
 
 .home-page .font-ipakket {
@@ -300,7 +311,7 @@ body {
   background-color: #ffffff;
 }
 
-.benefics-item{
+.benefics-item {
   max-width: 250px;
   text-align: justifylist-benefics;
 }
@@ -408,7 +419,6 @@ body {
   }
 }
 
-
 .item {
   opacity: 0;
   transform: translateY(20px); /* Desplazamiento inicial */
@@ -417,5 +427,5 @@ body {
 
 .item.visible {
   opacity: 1;
-  transform: translateY(0); 
+  transform: translateY(0);
 }
