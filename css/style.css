@@ -313,15 +313,15 @@ body {
 
 .benefics-item {
   max-width: 250px;
-  text-align: justifylist-benefics;
+  text-align: center;
 }
 
 .img-section-carrier {
   width: 450px;
   height: 450px;
-  background: url(../assets/imgs/carrier-ipakket.png) no-repeat center;
-  background-size: contain;
 }
+
+
 
 .text-about-carrier {
   max-width: 500px;
