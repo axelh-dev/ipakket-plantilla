@@ -104,13 +104,14 @@ body {
 }
 
 @media (max-width: 771px) {
-  .home-page,.home-page-container  {
+  .home-page,
+  .home-page-container {
     min-width: 300px;
     padding: 10px !important;
-    }
-    .contain-cat{
-      font-size: .7rem;
-      min-width: 40px;
+  }
+  .contain-cat {
+    font-size: 0.7rem;
+    min-width: 40px;
   }
 }
 
@@ -413,15 +414,19 @@ body {
 
 @media (max-width: 771px) {
   .container-fluid-header-sp {
+    height: 120vh;
+    width: 100%;
+  }
+  .container-fluid-header {
     height: 116vh;
     width: 100%;
   }
 }
 
 @media (max-width: 439px) {
- .benefics-item{
-  text-align: center;
- }
+  .benefics-item {
+    text-align: center;
+  }
 }
 
 .item {
