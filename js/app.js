@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
       if (scroll > aboutSectionTop - navbarHeight) {
         navbar.style.backgroundColor = "rgb(43,48,53)";
       } else {
-        navbar.style.backgroundColor = "transparent";
+        navbar.style.backgroundColor = "rgb(43,48,53, .7)";
       }
     } else {
       console.log("Elemento #section-about no encontrado");

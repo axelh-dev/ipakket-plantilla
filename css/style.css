@@ -116,7 +116,6 @@ body {
 
 .home-page .font-ipakket {
   font-size: 1.7rem;
-  text-align: justify;
 }
 
 .contain-cat {
@@ -191,7 +190,7 @@ body {
   background-color: #f9a328;
   position: absolute;
 }
-.home-fondos-v1 {
+/* .home-fondos-v1 {
   transform: rotate(90deg);
   top: 30px;
   right: 0px;
@@ -204,7 +203,7 @@ body {
   right: 0px;
   background: url(../assets/imgs/fondo-home.svg) no-repeat center;
   background-size: contain;
-}
+} */
 
 /* .section-about {
   
@@ -319,7 +318,7 @@ body {
 .img-section-carrier {
   width: 450px;
   height: 450px;
-  background: url(../assets/imgs/carrier-ipakket.svg) no-repeat center;
+  background: url(../assets/imgs/carrier-ipakket.png) no-repeat center;
   background-size: contain;
 }
 
