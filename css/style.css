@@ -102,15 +102,7 @@ body {
 .home-page {
   min-width: 300px;
 }
-.curved {
-  position: absolute;
-  top: 0px;
-  background: var(--color-secundario);
-  height: 16vh;
-  width: 100%;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
-}
+
 @media (max-width: 771px) {
   .home-page,
   .home-page-container {
