@@ -102,7 +102,15 @@ body {
 .home-page {
   min-width: 300px;
 }
-
+.curved {
+  position: absolute;
+  top: 0px;
+  background: var(--color-secundario);
+  height: 16vh;
+  width: 100%;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
 @media (max-width: 771px) {
   .home-page,
   .home-page-container {
@@ -118,6 +126,7 @@ body {
 .home-page .font-ipakket {
   font-size: 1.7rem;
 }
+
 
 .contain-cat {
   display: flex;
@@ -312,6 +321,7 @@ body {
 }
 
 .benefics-item {
+  max-height: 282px;
   max-width: 250px;
   text-align: center;
 }
@@ -320,7 +330,6 @@ body {
   width: 450px;
   height: 450px;
 }
-
 
 
 .text-about-carrier {
