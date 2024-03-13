@@ -13,6 +13,16 @@ body {
   font-family: "Open Sans", sans-serif !important;
 }
 
+.bottons-downloads{ 
+  color: white;
+  border-radius: 10px 0 0;
+  padding: 10px; 
+  position: fixed;
+  bottom: 0px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+  right: 0px; /* Ajusta la distancia desde la derecha según tu preferencia */
+  z-index: 1000; 
+  background-color: #000000;
+}
 :root {
   --color-primario: #f9a328;
   --color-secundario: #2b3035;
