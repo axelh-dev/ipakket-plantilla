@@ -109,9 +109,8 @@ body {
     min-width: 300px;
     padding: 10px !important;
   }
-  .contain-cat {
-    font-size: 0.7rem;
-    min-width: 40px;
+  .container-cat{
+    justify-content: space-around;
   }
 }
 
@@ -123,8 +122,10 @@ body {
 .contain-cat {
   display: flex;
   padding: 10px;
-  width: 60px;
-  height: 65px;
+  max-width: 180px;
+  width: 140px;
+  min-width: 120px;
+  height: 50px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -132,60 +133,19 @@ body {
   color: white;
   position: relative;
 }
-.contain-cat img i {
-  height: 40px;
+.contain-cat img {
+  height: 50px;
 }
-.contain-cat span {
-  position: absolute;
-  bottom: 3px;
-}
-.contain-cat span {
-  position: absolute;
-  bottom: 3px;
-  font-weight: 600;
-}
-.img-cat {
-  position: absolute;
-  top: 10px;
-}
-.otro-mueble {
-  position: absolute;
-  top: 2px;
-}
-
-.bi-truck {
-  position: absolute;
-  top: 5px;
-}
-.img-salud {
-  top: 10px !important;
-}
-.img-comida {
-  width: 40px;
-  height: 35px;
-  background-image: url(../assets/imgs/comidav2.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 10px !important;
-}
+/* 
 .container-cat > div:nth-child(1) {
   background-color: #f9a328;
 }
 .container-cat > div:nth-child(2) {
   color: #ffffff;
   background-color: #212121;
-}
-.container-cat > div:nth-child(3) {
-  background-color: #00928f;
-}
-.container-cat > div:nth-child(4) {
-  background-color: #293241;
-}
+} */
 
-.img-bac {
-  z-index: -2;
-}
+
 .home-fondos {
   width: 300px;
   height: 300px;
@@ -213,7 +173,7 @@ body {
   background-size: cover;
 } */
 
-/* .img-section-about {
+/* .-cation-about {
   width: 450px;
   height: 450px;
   background: url(../assets/imgs/ipakket-bandera.png) no-repeat center;
@@ -321,6 +281,8 @@ body {
 .img-section-carrier {
   width: 450px;
   height: 450px;
+  background: url("../assets/imgs/logo IPAKKET listo-02.png") no-repeat center;
+  background-size: contain;
 }
 
 
@@ -415,11 +377,11 @@ body {
 
 @media (max-width: 771px) {
   .container-fluid-header-sp {
-    height: 120vh;
+    height: 144vh;
     width: 100%;
   }
   .container-fluid-header {
-    height: 116vh;
+    height: 160vh;
     width: 100%;
   }
 }
@@ -428,6 +390,38 @@ body {
   .benefics-item {
     text-align: center;
   }
+}
+.contact-social
+{
+  height: 15vh; 
+  width: 100%;
+}  
+.bi-social {
+  font-size: 2.3rem;
+}
+
+.spikes {
+  position: relative;
+  background: var(--color-secundario);
+  height: 20vh;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  bottom: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(315deg, var(--color-secundario) 30%, transparent 25%), linear-gradient(45deg, var(--color-secundario)30%, transparent 25%);
+  background-position: 0 0;
+}
+.icons-social-about{
+  border-radius: 10px;
+  color: white;
 }
 
 .item {
@@ -440,3 +434,4 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
