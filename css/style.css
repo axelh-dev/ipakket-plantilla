@@ -25,6 +25,12 @@ body {
 .icons-download{
   font-size: 24px;
 }
+.img-google{
+  width: 27px;
+  height: 27px;
+ background: url('../assets/imgs/google-play-svgrepo-com.svg') no-repeat ;
+ background-size: contain;
+}
 
 :root {
   --color-primario: #f9a328;
