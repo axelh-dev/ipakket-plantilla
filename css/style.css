@@ -23,11 +23,11 @@ body {
   background-color: #000000;
 }
 .icons-download{
-  font-size: 24px;
+  font-size: 28px;
 }
 .img-google{
-  width: 27px;
-  height: 27px;
+  width: 30px;
+  height: 30px;
  background: url('../assets/imgs/google-play-svgrepo-com.svg') no-repeat ;
  background-size: contain;
 }
@@ -399,15 +399,15 @@ body {
 @media (max-width: 771px) {
   .container-fluid-header-sp {
     height: 144vh;
-    width: 100%;
   }
-  .container-fluid-header {
+  /* .container-fluid-header {
     height: 120vh;
-    width: 100%;
+  } */
+  .section-about{
+    height: 130vh;
   }
   .container-fluid-header-home {
     height: 100vh !important;
-    width: 100%;
   }
 
 }
