@@ -87,7 +87,8 @@
             <div class="home-page col-md-7 item hidden" id="#top-page">
                 <div class="text-home-ip col-12">
                     <h1 class="font-home mb-0 p-2">Que es iPakket?</h1>
-                    <p class="font-ipakket fs-4 fs-md- p-2"> Necesitas pedir tu comida, enviar un paquete, mudarte, comparar
+                    <p class="font-ipakket fs-4 fs-md- p-2"> Necesitas pedir tu comida, enviar un paquete, mudarte,
+                        comparar
                         medicamentos o transportar personas
                         iPakket es la solucion perfecta para ti. Ofrecemos una amplia gama de
                         servicios
@@ -122,7 +123,8 @@
             <div class="text-about-ipakket col-12 col-md-6">
                 <h3 class="fw-bold text-center"> <strong>Mas Sobre nosotros</strong></h3>
                 <p class="fs-4 text-center">Ipakket es una empresa americana con sede en [Insertar país] que ofrece una
-                    amplia gama de servicios para satisfacer las necesidades de nuestros clientes individuales como comerciales.</p>
+                    amplia gama de servicios para satisfacer las necesidades de nuestros clientes individuales como
+                    comerciales.</p>
             </div>
             <div class=" text-about-pacifi col-10 d-flex gap-4 flex-column ">
                 <h4 class="fw-bold fs-4 text-center"><strong>En Ipakket nos preocupamos por:</strong></h4>
@@ -167,8 +169,8 @@
         class="section-download container-fluid-header-sp  d-flex p-2  m-auto justify-content-center align-items-centers"
         id="section-download">
         <div
-            class="container-download item hidden gap-4 d-flex flex-lg-row flex-column p-2 p-md-4  flex-row align-items-centers m-auto justify-content-center">
-            <div class=" text-about-download item hidden">
+            class="container-download item hidden gap-4 d-flex flex-lg-row flex-column p-3 p-md-5 col-11  flex-row align-items-centers m-auto justify-content-evenly">
+            <div class=" text-about-download item hidden p-2">
                 <div class="text download">
                     <h2 class="fw-bold fs-3"><strong>Descarga la app iPakket y disfruta de la mejor experiencia de
                             delivery de comida</strong></h2>
@@ -210,11 +212,10 @@
     </section>
 
     <section
-        class="section-carrier container-fluid-header position-relative d-flex flex-row m-auto justify-content-center align-items-centers border-bottom"
+        class="section-carrier container-fluid-header position-relative d-flex flex-row m-auto justify-content-evenly align-items-centers border-bottom"
         id="section-carrier">
-
         <div
-            class="container-carrier gap-2 item hidden flex-md-row flex-column d-flex p-2 p-md-5 flex-row m-auto justify-content-center align-items-center">
+            class="container-carrier gap-2 item hidden flex-md-row flex-column col-12 d-flex p-2 p-md-5 flex-row m-auto justify-content-evenly align-items-center">
 
             <div class="img-section-carrier item hidden img-fluid  col-4"></div>
 
@@ -233,10 +234,8 @@
 
                 </ul>
                 <div class="container-carrier-botton">
-                    <p class="fs-5">Haz tu solicitud</p>
-                    <a href="" class="btn btn-carrier fw-bold border fs-5" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" data-bs-whatever="@mdo"
-                        style="background-color: #f9a328;">Postular</a>
+                    <button type="button" class="btn btn-carrier fw-bold border  fs-5 border" data-bs-toggle="modal"
+                        data-bs-target="#registropiloto" style="background-color: #f9a328;">Postular</button>
                 </div>
                 <div class="container-requirements  d-flex p-2 gap-2 align-items-center justify-content-around">
                     <div class="contain-requirements ">
@@ -261,11 +260,14 @@
         </div>
     </section>
 
+
+
+
     <section
         class="section-shops container-fluid-header d-flex  p-2 flex-row m-auto justify-content-center align-items-centers"
         id="section-shops">
         <div
-            class="container-shops item hidden gap-2 gap-md-5 d-flex flex-md-row flex-column p-2 p-md-5 flex-row m-auto justify-content-center align-items-center">
+            class="container-shops item hidden gap-2 gap-md-5 col-12 d-flex flex-md-row flex-column p-2 p-md-5 flex-row m-auto justify-content-center align-items-evenly">
 
             <div class="text-about-shops p-3  d-flex justify-content-center flex-column">
                 <div class="text-shops">
@@ -294,8 +296,9 @@
                     </ol>
                 </div>
                 <div class="container-shops-botton">
-                    <a href="" class="btn btn-carrier fw-bold border fs-5"
-                        style="background-color: #f9a328;">Postular</a>
+                    <button type="button" class="btn btn-carrier fw-bold border  fs-5 border" data-bs-toggle="modal"
+                        data-bs-target="#registrocomercio" data-bs-whatever="@mdo"
+                        style="background-color: #f9a328;">Postular</button>
                 </div>
             </div>
             <div class="img-section-shops img-fluid col-4">
@@ -303,32 +306,42 @@
         </div>
     </section>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade row" id="registropiloto" tabindex="-1" aria-labelledby="registropilotoLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                    <h1 class="modal-title fs-4" id="exampleModalLabel">Formulario de Piloto</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSc4vL6Ybks-VGlk-UdWWzsnzVo-0-O8rjTZlbC8vK9WcKKt1g/viewform?embedded=true"
+                        width="100%" height="1149" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+    <div class="modal fade" id="registrocomercio" tabindex="-1" aria-labelledby="registrocomercioLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel">Formulario de Registro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdtNM4FDXiQvrx0eXBTvwOpXnriX9wX3JXMRPUBVmMXtenC1A/viewform?embedded=true"
+                        width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
