@@ -4,7 +4,7 @@
   margin: 0;
 }
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
 }
 body {
   background-size: cover;
@@ -13,23 +13,23 @@ body {
   font-family: "Open Sans", sans-serif !important;
 }
 
-.bottons-downloads{ 
+.bottons-downloads {
   color: white;
   border-radius: 10px 0 0;
   position: fixed;
   bottom: 0px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
   right: 0px; /* Ajusta la distancia desde la derecha según tu preferencia */
-  z-index: 1000; 
+  z-index: 1000;
   background-color: #000000;
 }
-.icons-download{
+.icons-download {
   font-size: 28px;
 }
-.img-google{
+.img-google {
   width: 30px;
   height: 30px;
- background: url('../assets/imgs/google-play-svgrepo-com.svg') no-repeat ;
- background-size: contain;
+  background: url("../assets/imgs/google-play-svgrepo-com.svg") no-repeat;
+  background-size: contain;
 }
 
 :root {
@@ -130,13 +130,9 @@ body {
     min-width: 300px;
     padding: 10px !important;
   }
-  .container-cat{
+  .container-cat {
     justify-content: space-around;
   }
-}
-
-.home-page .font-ipakket {
-  font-size: 1.7rem;
 }
 
 
@@ -165,7 +161,6 @@ body {
   color: #ffffff;
   background-color: #212121;
 } */
-
 
 .home-fondos {
   width: 300px;
@@ -294,8 +289,9 @@ body {
 }
 
 .benefics-item {
-  max-height: 282px;
-  max-width: 250px;
+  height: auto;
+  max-width: 300px; /* Este es un ancho arbitrario, puedes ajustarlo según tus necesidades */
+  text-align: center;
   text-align: center;
 }
 
@@ -305,7 +301,6 @@ body {
   background: url("../assets/imgs/logo IPAKKET listo-02.png") no-repeat center;
   background-size: contain;
 }
-
 
 .text-about-carrier {
   max-width: 500px;
@@ -403,13 +398,12 @@ body {
   /* .container-fluid-header {
     height: 120vh;
   } */
-  .section-about{
-    height: 130vh;
+  .section-about {
+    height: 140vh;
   }
   .container-fluid-header-home {
     height: 100vh !important;
   }
-
 }
 
 @media (max-width: 439px) {
@@ -417,11 +411,10 @@ body {
     text-align: center;
   }
 }
-.contact-social
-{
-  height: 15vh; 
+.contact-social {
+  height: 15vh;
   width: 100%;
-}  
+}
 .bi-social {
   font-size: 2.3rem;
 }
@@ -433,7 +426,7 @@ body {
 }
 
 .spikes::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   left: -0%;
@@ -442,10 +435,15 @@ body {
   display: block;
   height: 50px;
   background-size: 50px 100%;
-  background-image: linear-gradient(315deg, var(--color-secundario) 30%, transparent 25%), linear-gradient(45deg, var(--color-secundario)30%, transparent 25%);
+  background-image: linear-gradient(
+      315deg,
+      var(--color-secundario) 30%,
+      transparent 25%
+    ),
+    linear-gradient(45deg, var(--color-secundario) 30%, transparent 25%);
   background-position: 0 0;
 }
-.icons-social-about{
+.icons-social-about {
   border-radius: 10px;
   color: white;
 }
@@ -460,4 +458,3 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-
