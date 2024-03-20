@@ -135,7 +135,6 @@ body {
   }
 }
 
-
 .contain-cat {
   display: flex;
   padding: 10px;
@@ -153,14 +152,6 @@ body {
 .contain-cat img {
   height: 50px;
 }
-/* 
-.container-cat > div:nth-child(1) {
-  background-color: #f9a328;
-}
-.container-cat > div:nth-child(2) {
-  color: #ffffff;
-  background-color: #212121;
-} */
 
 .home-fondos {
   width: 300px;
@@ -168,37 +159,6 @@ body {
   background-color: #f9a328;
   position: absolute;
 }
-/* .home-fondos-v1 {
-  transform: rotate(90deg);
-  top: 30px;
-  right: 0px;
-  background: url(../assets/imgs/fondo-home.svg) no-repeat center;
-  background-size: contain;
-}
-.home-fondos-v2 {
-  transform: rotate(180deg);
-  bottom: -25px;
-  right: 0px;
-  background: url(../assets/imgs/fondo-home.svg) no-repeat center;
-  background-size: contain;
-} */
-
-/* .section-about {
-  
- --background: url(../assets/imgs/fondo-acercade.svg) no-repeat center;
-  background-size: cover;
-} */
-
-/* .-cation-about {
-  width: 450px;
-  height: 450px;
-  background: url(../assets/imgs/ipakket-bandera.png) no-repeat center;
-  background-size: contain;
-} */
-
-/* .text-about-contain {
-  max-width: 550px; 
-}  */
 
 .text-about-ipakket,
 .text-about-pacifi {
@@ -284,9 +244,9 @@ body {
   font-weight: 600;
 }
 
-.section-carrier {
-  background-color: #ffffff;
-}
+/* .section-carrier {
+  background-image: linear-gradient(to right, #ffffff, #ffe2ff, #ffbdd5, #ffa282, #fba400);
+} */
 
 .benefics-item {
   height: auto;
@@ -372,7 +332,7 @@ body {
   background-size: contain;
 }
 .container-fluid-header-sp {
-  height: 100vh;
+  height: 117vh;
   width: 100%;
 }
 
@@ -395,11 +355,9 @@ body {
   .container-fluid-header-sp {
     height: 144vh;
   }
-  /* .container-fluid-header {
-    height: 120vh;
-  } */
+
   .section-about {
-    height: 140vh;
+    height: 160vh;
   }
   .container-fluid-header-home {
     height: 100vh !important;
