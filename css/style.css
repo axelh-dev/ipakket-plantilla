@@ -109,12 +109,14 @@ body {
   color: var(--color-primario);
 }
 
+
+/* 
 .img-home-ipakket {
   background-image: url(../assets/imgs/img-home-ipakket.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 .home-page-container {
   background-color: rgba(255, 255, 255, 0.86);
@@ -122,15 +124,15 @@ body {
   border-radius: 10px;
 }
 .home-page {
-  min-width: 300px;
+  min-width: 250px;
 }
 
 @media (max-width: 771px) {
-  .home-page,
   .home-page-container {
-    min-width: 300px;
+    max-width: 400px;
     padding: 10px !important;
   }
+
   .container-cat {
     justify-content: space-around;
   }
