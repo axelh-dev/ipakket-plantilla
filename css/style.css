@@ -7,9 +7,6 @@ html {
   font-size: 72.5%;
 }
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: inherit;
   font-family: "Open Sans", sans-serif !important;
 }
 
@@ -17,8 +14,8 @@ body {
   color: white;
   border-radius: 10px 0 0;
   position: fixed;
-  bottom: 0px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
-  right: 0px; /* Ajusta la distancia desde la derecha según tu preferencia */
+  bottom: 0px; 
+  right: 0px; 
   z-index: 1000;
   background-color: #000000;
 }
@@ -28,7 +25,6 @@ body {
 .navbar-toggler span{
   color: var(--color-primario);
 }
-
 .img-google {
   width: 30px;
   height: 30px;
@@ -43,10 +39,9 @@ body {
 }
 
 .nav-link-color {
-  color: white !important; /* Color deseado */
+  color: white !important;
 }
 
-/* Estilo para el enlace activo */
 .nav-link.active {
   color: #f7a41d !important;
 }
@@ -103,6 +98,8 @@ body {
 .container-fluid-header-home {
   background: url(../assets/imgs/fondo--home.png) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   height: 100vh;
   width: 100%;
 }
@@ -191,7 +188,6 @@ body {
 .section-download {
   background: url(../assets/imgs/telefono.png) no-repeat center;
   background-size: cover;
-  /* Añadir propiedades de parallax */
   background-attachment: fixed;
   background-position: center;
 }
@@ -247,10 +243,6 @@ body {
 .text-2 {
   font-weight: 600;
 }
-
-/* .section-carrier {
-  background-image: linear-gradient(to right, #ffffff, #ffe2ff, #ffbdd5, #ffa282, #fba400);
-} */
 
 .benefics-item {
   height: auto;
@@ -441,5 +433,6 @@ body {
 .section-shops {
   background: url(../assets/imgs/shops.jpg) no-repeat center;
   background-size: cover;
-  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
