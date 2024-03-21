@@ -25,6 +25,10 @@ body {
 .icons-download {
   font-size: 28px;
 }
+.navbar-toggler span{
+  color: var(--color-primario);
+}
+
 .img-google {
   width: 30px;
   height: 30px;
@@ -355,7 +359,9 @@ body {
   .container-fluid-header-sp {
     height: 144vh;
   }
-
+  .container-fluid-header {
+    height: 110vh;
+  }
   .section-about {
     height: 160vh;
   }
@@ -417,7 +423,6 @@ body {
   transform: translateY(0);
 }
 
-/* Estilos del video */
 .section-shops .video {
   position: absolute;
   left: 0;
@@ -427,14 +432,12 @@ body {
   z-index: -1; 
 }
 
-/* Estilos del texto y contenedor */
 .container-shops {
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.759);
   border-radius: 26px;
 }
 
-/* Oculta el video en todas las secciones excepto en la deseada */
 .section-shops {
   background: url(../assets/imgs/shops.jpg) no-repeat center;
   background-size: cover;
