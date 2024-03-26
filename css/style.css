@@ -375,6 +375,11 @@ body {
   .container-fluid-header-home {
     height: 100vh !important;
   }
+  .section-download {
+    background: url(../assets/imgs/ipakket-apk.png) ;
+      background-size: cover;
+      background-attachment: fixed;
+  }
 }
 
 @media (max-width: 439px) {
