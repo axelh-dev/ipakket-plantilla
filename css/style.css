@@ -14,15 +14,15 @@ body {
   color: white;
   border-radius: 10px 0 0;
   position: fixed;
-  bottom: 0px; 
-  right: 0px; 
+  bottom: 0px;
+  right: 0px;
   z-index: 1000;
   background-color: #000000;
 }
 .icons-download {
   font-size: 28px;
 }
-.navbar-toggler span{
+.navbar-toggler span {
   color: var(--color-primario);
 }
 .img-google {
@@ -153,10 +153,9 @@ body {
 .contain-cat img {
   height: 50px;
 }
-.container-video-ip p{
+.container-video-ip p {
   color: var(--color-primario);
   z-index: 20;
-  
 }
 /* 
 .video-sec-ipa{
@@ -165,8 +164,8 @@ body {
   box-shadow: 0px 0px 156px 8px rgba(255,255,255,1);
 } */
 
-.video-section{
-  width: 100%;  
+.video-section {
+  width: 100%;
   height: 98vh;
   background-color: var(--color-secundario);
 }
@@ -195,20 +194,21 @@ body {
 }
 
 .img-section-download {
-  width: 450px;
-  height: 450px;
-  background: url(../assets/imgs/ipakket-app.png) no-repeat center;
-  background-size: contain;
+  border-radius: 0 10px 10px 0;
+  background: url(../assets/imgs/ipakket-apk.png) no-repeat center;
+  position: absolute;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  top: 0px;
+  right: 0px;
 }
-
 .section-download {
   background: url(../assets/imgs/telefono.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-}
-.text-about-download {
-  max-width: 500px;
 }
 
 .container-download {
@@ -348,10 +348,10 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .img-section-download {
+  /* .img-section-download {
     width: 300px;
     height: 300px;
-  }
+  } */
   .img-section-carrier {
     width: 300px;
     height: 300px;
@@ -367,7 +367,7 @@ body {
     height: 144vh;
   }
   .container-fluid-header {
-    height: 110vh;
+    height: 120vh;
   }
   .section-about {
     height: 160vh;
@@ -435,8 +435,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
-  z-index: -1; 
+  object-fit: cover;
+  z-index: -1;
 }
 
 .container-shops {
