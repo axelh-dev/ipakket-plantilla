@@ -441,12 +441,12 @@ body {
 
 .container-shops {
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.759);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 26px;
 }
 
 .section-shops {
-  background: url(../assets/imgs/shops.jpg) no-repeat center;
+  background: url(../assets/imgs/img-ipakket-phone.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

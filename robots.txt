@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://ipakket-site-pp.netlify.app/sitemap.xml
