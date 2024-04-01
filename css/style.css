@@ -24,6 +24,7 @@ body {
 }
 .navbar-toggler span {
   color: var(--color-primario);
+  font-weight: 700;
 }
 .img-google {
   width: 30px;
@@ -371,6 +372,9 @@ body {
   }
   .section-about {
     height: 160vh;
+  }
+  .video-section {
+    height: 50vh;
   }
   .container-fluid-header-home {
     height: 100vh !important;
