@@ -50,9 +50,6 @@ body {
   color: white;
   height: 80px;
 }
-.navbar-nav .nav-item .nav-link {
-  font-size: 1.7rem;
-}
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--color-primario);
   transition: color 0.3s ease-in-out;

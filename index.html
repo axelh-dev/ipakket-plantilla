@@ -42,25 +42,25 @@
             <div class="collapse navbar-collapse mr-2" id="navbarSupportedContent">
                 <ul class="navbar-nav  mb-2 mb-lg-0 d-flex align-items-center justify-content-evenly">
                     <li class="nav-item">
-                        <a class="nav-link" href="#top-page">Inicio</a>
+                        <a class="nav-link fs-4 " href="#top-page">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-about">Acerca de</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#section-download">Descargar</a>
+                        <a class="nav-link fs-4 " href="#section-about">Acerca de</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#section-carrier">Pilotos</a>
+                        <a class="nav-link fs-4 " href="#section-download">Descargar</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-shops">Comercios</a>
+                        <a class="nav-link fs-4 " aria-current="page" href="#section-carrier">Pilotos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 " href="#section-shops">Comercios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sec-contact">Contacto</a>
+                        <a class="nav-link fs-4 " href="#sec-contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -242,7 +242,7 @@
                 </ul>
                 <div class="container-carrier-botton">
                     <button type="button" class="btn btn-carrier fw-bold border  fs-5 border" data-bs-toggle="modal"
-                        data-bs-target="#registropiloto" style="background-color: #f9a328;">Postular</button>
+                        data-bs-target="#registropiloto" style="background-color: #fba400;">Postular</button>
                 </div>
                 <div class="container-requirements  d-flex p-2 gap-2 align-items-center justify-content-around">
                     <div class="contain-requirements ">
@@ -300,8 +300,9 @@
                 </div>
                 <div class="container-shops-botton">
                     <button type="button" class="btn btn-carrier fw-bold border fs-5 border" data-bs-toggle="modal"
-                        data-bs-target="#registrocomercio" data-bs-whatever="@mdo"
-                        style="background-color: #f9a328;">Postular</button>
+                        data-bs-target="#registrocomercio" style="background-color: #fba400;">Postular</button>
+                    <button type="button" class="ms-1 btn btn-carrier fw-bold border fs-5 border" data-bs-toggle="modal"
+                        data-bs-target="#mostrarvideo" style="background-color: #fba400;">Como registrarte</button>
                 </div>
             </div>
             <div class="img-section-shops d-none d-md-block img-fluid col-4"></div>
@@ -312,6 +313,26 @@
         </video> -->
     </section>
 
+    <!-- Video de registro -->
+    <div class="modal fade" id="mostrarvideo" tabindex="-1" aria-labelledby="mostrarvideo" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-4" id="exampleModalLabel">Como registrarte</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1IvlX8A9r2k?si=MeZXmSaiQIIL930v"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Modal para registro de piloto -->
     <div class="modal fade" id="registropiloto" tabindex="-1" aria-labelledby="registropilotoLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
